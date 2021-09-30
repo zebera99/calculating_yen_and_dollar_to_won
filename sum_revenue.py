@@ -23,8 +23,8 @@ revenue_in_dollar = [
 ]
 
 
-yen_array = np.array(revenue_in_yen)
-dollar_array = np.array(revenue_in_dollar)
+yen_array = np.array(revenue_in_yen) * 10.08
+dollar_array = np.array(revenue_in_dollar) * 1138
 
 won_array = yen_array + dollar_array
 
